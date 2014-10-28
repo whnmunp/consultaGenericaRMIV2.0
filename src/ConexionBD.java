@@ -41,7 +41,7 @@ public class ConexionBD extends UnicastRemoteObject implements IConexionBD {
                 return respuesta;
     }
 
-    //este metodo ayuda a conectar las bases de datos
+    //este metodo ayuda a conectar las bases de datos abcddkkdkdk
     public void Conectar(String host, String BD, String User, String Password, String dbms) throws RemoteException {
    try{
         if(dbms.equals("postgresql"))
