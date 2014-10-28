@@ -6,7 +6,7 @@ import java.rmi.server.UnicastRemoteObject;
  *
  * @author Alexandra
  */
-public class ConexionBD extends UnicastRemoteObject implements IConexionBD {
+public class ConexionBD extends UnicastRemoteObject implements ImpConexionBD {
 
     Connection con;
     public ConexionBD() throws RemoteException {
