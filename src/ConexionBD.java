@@ -13,7 +13,7 @@ public class ConexionBD extends UnicastRemoteObject implements IConexionBD {
 
     }
 
-   
+   //este es un metodo que sirve para .... probando repositorio
     public String EjecutarQuery(String query) throws RemoteException {
                 String respuesta="";
                 try{
