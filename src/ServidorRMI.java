@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Alexandra
+ * @author CaRnOl
  */
 public class ServidorRMI {
     public static void main(String[] args) {
