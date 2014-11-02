@@ -263,7 +263,7 @@ public class ConsultaGenerica extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
      try {
-         IConexionBD rp = (IConexionBD) registry.lookup("conex");
+         ImpConexionBD rp = (ImpConexionBD) registry.lookup("conex");
          String host=hostbd.getText();
          String dbms=(String)dbmstext.getSelectedItem();
          String usuario=user.getText();
@@ -271,8 +271,8 @@ public class ConsultaGenerica extends javax.swing.JFrame {
          String q= query.getText();
          String pasw=pass.getText();
          rp.Conectar(host, baseD, usuario, pasw, dbms);
-         String r=rp.EjecutarQuery(q);
-         query.setText(r);
+         //String r=rp.EjecutarQuery(q);
+         //query.setText(r);
      } catch (Exception ex) {
          ex.printStackTrace();
      } 
